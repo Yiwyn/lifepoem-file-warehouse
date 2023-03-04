@@ -14,7 +14,11 @@ const Index = () => {
     token: { colorBgContainer },
   } = theme.useToken();
   return (
-    <Layout>
+    <Layout
+      style={{
+        height: "100%",
+      }}
+    >
       <Sider
         breakpoint="lg"
         collapsedWidth="0"
